@@ -101,6 +101,11 @@ hr {
   text-decoration: none;
 }
 
+.contact-me-message {
+  width: 50%;
+  margin: auto;
+}
+
 .excel {
   float: left;
   margin-right: 40px;
