@@ -1,0 +1,159 @@
+/**************TAG SELECTORS**************/
+a {
+  color: #11999E;
+  font-family: 'Monserrat', sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+h1 {
+  font-size: 5rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Dancing Script', cursive;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Monserrat', sans-serif;
+  font-size: 2em;
+  font-weight: normal;
+  color: #66BFBF;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Monserrat', sans-serif;
+  color: #11999E;
+  font-size: 1.4em;
+}
+
+hr {
+  border-color: #EAF6F6;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  width: 3%;
+  margin: 80px auto;
+}
+
+/*****************CLASS SELECTORS***********/
+.attribution {
+  font-size: 0.6em;
+  font-style: italic;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 15%;
+}
+
+.bottom-container {
+  padding-top: 40px;
+  background-color: #66bfbf;
+  padding-bottom: 20px;
+}
+
+.circular {
+  border-radius: 100%;
+  height: 100px;
+}
+
+.copyright{
+  color:#EAF6F6;
+  font-size: 0.75em;
+  padding: 20px 0;
+}
+
+.contact-me-button {
+  background: #66bfbf;
+  background-image: -webkit-linear-gradient(top, #66bfbf, #11999E);
+  background-image: -moz-linear-gradient(top, #66bfbf, #11999E);
+  background-image: -ms-linear-gradient(top, #66bfbf, #11999E);
+  background-image: -o-linear-gradient(top, #66bfbf, #11999E);
+  background-image: linear-gradient(to bottom, #66bfbf, #11999E);
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  font-family: 'Monserrat', sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.contact-me-button:hover {
+  background: #11999E;
+  background-image: -webkit-linear-gradient(top, #11999E, #66bfbf);
+  background-image: -moz-linear-gradient(top, #11999E, #66bfbf);
+  background-image: -ms-linear-gradient(top, #11999E, #66bfbf);
+  background-image: -o-linear-gradient(top, #11999E, #66bfbf);
+  background-image: linear-gradient(to bottom, #11999E, #66bfbf);
+  text-decoration: none;
+}
+
+.excel {
+  float: left;
+  margin-right: 40px;
+}
+
+.globe {
+  float: right;
+  margin-left: 40px;
+}
+
+.middle-container {
+  background-color: #fcfefe;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.paragraph {
+  width: 40%;
+  margin: 0 auto;
+  line-height: 2;
+}
+
+.skill-icons {
+  width: 25%;
+}
+
+.skill-row {
+  margin: 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+
+.square {
+  height: 90px;
+  width: 90px;
+}
+
+.top-cloud {
+  position: absolute;
+  margin: 0 auto;
+  padding-left: 15%;
+}
+
+.top-container {
+  background-color: #eaf6f6;
+  position: relative;
+  padding-top: 50px;
+}
+
+/**************ID SELECTORS*****************/
+#avatar {
+  width: 20%;
+  height: auto;
+  margin-bottom: 20px;
+}
